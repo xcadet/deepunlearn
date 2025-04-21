@@ -1,0 +1,38 @@
+- fashion_mnist:
+  - original:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+  - naive:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+- mnist:
+  - original:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+  - naive:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+ 
+- cifar10:
+  - original:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+  - naive:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+ 
+- cifar100:
+  - original:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+  - naive:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_182-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+ 
+- utkface:
+  - original:
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_original
+  - naive :
+    - model_resnet18-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive
+    - model_vit11m-unlearner.cfg.batch_size_256-unlearner.cfg.num_epochs_50-unlearner.cfg.optimizer.learning_rate_0.1-unlearner_naive

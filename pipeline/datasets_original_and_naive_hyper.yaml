@@ -1,0 +1,35 @@
+- mnist:
+  - unlearner: original, naive
+  - unlearner.cfg.num_epochs: 50
+  - unlearner.cfg.batch_size: 256
+  - unlearner.cfg.optimizer.learning_rate: 0.1
+  - model: resnet18, vit11m
+  - model_seed: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- fashion_mnist:
+  - unlearner: original, naive
+  - unlearner.cfg.num_epochs: 50
+  - unlearner.cfg.batch_size: 256
+  - unlearner.cfg.optimizer.learning_rate: 0.1
+  - model: resnet18, vit11m
+  - model_seed: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- cifar10:
+  - unlearner: original, naive
+  - unlearner.cfg.num_epochs: 182
+  - unlearner.cfg.batch_size: 256
+  - unlearner.cfg.optimizer.learning_rate: 0.1
+  - model: resnet18, vit11m
+  - model_seed: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- cifar100:
+  - unlearner: original, naive
+  - unlearner.cfg.num_epochs: 182
+  - unlearner.cfg.batch_size: 256
+  - unlearner.cfg.optimizer.learning_rate: 0.1
+  - model: resnet18, vit11m
+  - model_seed: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+- utkface:
+  - unlearner: original, naive
+  - unlearner.cfg.num_epochs: 50
+  - unlearner.cfg.batch_size: 256
+  - unlearner.cfg.optimizer.learning_rate: 0.1
+  - model: resnet18, vit11m
+  - model_seed: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
