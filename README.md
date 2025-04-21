@@ -69,7 +69,7 @@ Then we link the original and retrained models so that they can be used in the n
 python pipeline/step_6_link_original_and_naive.py
 ```
 
-## 6. Hyperparameter search
+## 7. Hyperparameter search
 Once we have the original and retrained models, we can proceed to the hyperparameter search.
 The original models serve as starting point to the unlearning method.
 While the retrained models are evaluate the performance of the models.
@@ -78,11 +78,11 @@ python pipeline/step_7_generate_optuna.py
 ```
 This generates `commands/all_optuna.txt`
 
-## 7. Run the different searches
+## 8. Run the different searches
 Each line of `./commands/all_optuna.txt` is a command that can be invoked as is.
 Similarly to step 5, each line of the file can be called separately.
 
-## 8. Extract the best hyperparameter per unlearning method
+## 9. Extract the best hyperparameter per unlearning method
 Once the search are complete, one can run the following:
 
 ```
@@ -90,7 +90,7 @@ pipeline/step_8_generate_all_best_hp.py
 ```
 This generates `commands/all_best_hp.txt`, which follows a similar format to step 5 and 7.
 
-## 9. Unlearn using the best hyperparameter
+## 10. Unlearn using the best hyperparameter
 Calling the different lines of `commands/all_best_hp.txt`, run the unlearning methods with the best set of hyperparameter found.
 Once these models are unlearned they are ready for evaluation.
 
